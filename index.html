@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyWorld</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+            <a href="index.html"><span>Fly</span>World</a>
+        </div>
+
+        <nav class="menu_principal">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <nav class="menu_mobile">
+            <ul id="menu_mobile">
+                <!--Botão para fechar o menu mobile-->
+                <li><a onclick="FecharMenuMobile()" href="#">X</a></li>
+
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+            <div class="botao_abrir_menu_mobile" onclick="AbrirMenuMobile()">
+                <!--Três barrinhas presentes no botão de abrir o menu mobile-->
+                <div class="barra_menu"></div>
+                <div class="barra_menu"></div>
+                <div class="barra_menu"></div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="conteudo_principal">
+
+            <div class="itens_conteudo">
+       
+                <div class="titulo_conteudo">
+                    <h1>Sua Próxima Aventura</h1>
+                    <h1><span>Começa Aqui!</span></h1>
+                </div>
+
+                <div class="texto_descritivo">
+                    <p>Viajar é mais do que apenas chegar a um destino é sobre explorar novos horizontes,
+                    mergulhar em culturas únicas e criar memórias que duram a vida toda. Seja você um 
+                    aventureiro intrépido ou um turista tranquilo, temos a passagem perfeita para você.</p>
+                </div>
+
+                <div class="botao_descubra">
+                    <a href="#">Descubra Agora</a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
